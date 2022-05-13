@@ -1,0 +1,84 @@
+/**index.wxss**/
+.container{
+  display:flex column; 
+}
+.global_text{
+  display:block;
+  position: absolute;
+}
+.images_group{
+  display:flex row;
+  float: left;
+  margin-left:10px;
+  margin-right:10px;
+}
+.contactus{
+  vertical-align:middle;
+  border: 3rpx solid #faca82;
+  border-radius: 10rpx;
+  background-color:yellow;
+}
+.training_items{
+  display:flex column;
+  width:100%;
+}
+.buttons_group{
+  display:flex row nowrap;
+}
+.images_group_inner{
+  display:flex column;
+  width:70rpx;
+}
+.training_items_image{
+  
+}
+.training_items_button{
+  display: inline-block;
+  width:480px;
+  height:100px;
+  position: relative;
+}
+
+.text{
+  text-align: left;
+}
+.text::after{
+  width: 100%;
+  display: inline-block;
+  content: '';
+}
+.mini-btn{
+  margin-right: 25rpx;
+  margin-left: 25rpx;
+  border-radius: 10rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.buy_card{
+  border:1px solid black;
+  display:block;
+}
+.home-swiper {
+  width: 95%;
+  height: 360rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

@@ -1,0 +1,72 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  
+
+  <view class="images_group">
+    <image src="../../images/不健不散2.png" style="height:50px;width:70px;"></image>
+    <image src="../../images/不健不散2.png" style="height:50px;width:70px;"></image>
+    <image src="../../images/不健不散2.png" style="height:50px;width:70px;"></image>
+    <image src="../../images/不健不散2.png" style="height:50px;width:70px;"></image>
+  </view>                                                                                                       
+  <view class="buttons_group">
+      <button class="mini-btn" type="default" size="mini">预约</button>
+    
+    <button class="mini-btn" type="default" size="mini">装备</button>
+      <button class="mini-btn" type="default" size="mini">私教</button>
+      <button class="mini-btn" type="default" size="mini">优惠劵</button>
+  </view>
+   <view class="contactus" style="width: 648rpx; height: 72rpx; display: block; box-sizing: border-box">
+    <image src="../../images/about1.jpg" style="height:30px;width:60px;vertical-align:middle"></image>
+    <text style="text-align: ce">南山区学院大道,020-0000-0000</text>
+   </view>
+  <view class="training_muji">
+    <text class="text" style="display: block; position: relative; left: -282rpx; top: 18rpx; width: 134rpx; height: 46rpx; box-sizing: border-box">快速进阶</text>
+  </view>
+  <view class="training_items">
+    <view class="training_items_image">
+      <button class="training_items_button" style="width:800rpx">
+      <text class="inner_Text" style="display: block; position: absolute; bottom: 10px; left: 80rpx; color: red; top: 96rpx; width: 205rpx; height: 52rpx; box-sizing: border-box">基础瘦身训练</text>
+      <text style="position: absolute; color: red; font-size: 12px; left: 80rpx; top: 148rpx; width: 170rpx; height: 52rpx; display: block; box-sizing: border-box">60天快速减脂</text>
+        <image src="../../images/workout_swiper1.png" class="imag"></image>
+      </button>
+    </view>
+  </view>
+  <view class="training_items">
+    <view class="training_items_image">
+      <button class="training_items_button" style="width:800rpx">
+      <text class="inner_Text" style="display: inline_block; position: absolute; bottom: 10px; left: 80rpx; color: red; top: 98rpx">基础瘦身训练</text>
+       <text style="position: absolute; color: red; font-size: 12px; left: 80rpx; top: 148rpx; width: 170rpx; height: 52rpx; display: block; box-sizing: border-box">60天快速减脂</text>
+        <image src="../../images/workout_swiper1.png" class="imag"></image>
+      </button>
+    </view>
+  </view>
+  <view class="training_items">
+    <view class="training_items_image">
+      <button class="training_items_button" style="width:800rpx">
+      <text class="inner_Text" style="display: block; position: absolute; bottom: 10px; left: 80rpx; color: red; top: 100rpx; width: 205rpx; height: 52rpx; box-sizing: border-box">基础瘦身训练</text>
+       <text style="position: absolute; color: red; font-size: 12px; left: 80rpx; top: 148rpx; width: 170rpx; height: 52rpx; display: block; box-sizing: border-box">60天快速减脂</text>
+        <image src="../../images/workout_swiper1.png" class="imag"></image>
+      </button>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view class="buy_card">
+        <text style="border: darkblue; border-radius: 50%!important">本健身房月/季卡购买</text>
+      </view>
+    </view>
+    <view style="display:inline:block height:200px;width:50% background-color:blue;">
+      <image >
+    </view>
+    <view style="display:inline:block height:200px;width:50%;background-color:blue;"></view>
+  </view>
+</view>
+
